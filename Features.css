@@ -1,0 +1,223 @@
+/********************************************SOHILA**********************************************/
+/*#############################################FEATURES###########################################*/
+*{
+    font-family: 'Montserrat';
+    margin: 0;
+}  
+.logo{
+    transform: scale(4.88)
+}
+@keyframes mymove {
+    from {padding: 35px 35px 35px 0px;}
+    to {padding: 35px;}
+}
+.top-left{
+ animation: mymove 6s 1;
+ animation-delay: -2s;
+}
+.sec1{
+    background-image: url('image/Background1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position:static;
+}
+.top-left h2{
+    line-height: 50px;
+}
+.top-left h1{
+    line-height: 40px;
+}
+.top-left {
+    padding: 35px;
+    font-size: 13px;
+    line-height: 25px;
+    color:#FFCB9A;
+}
+.row{
+    display: flex;
+    color:#FFCB9A;
+}
+.row h2{
+    line-height: 50px;
+}
+.bottom-left {
+    background-color:#053742;
+    flex: 0.60;
+    padding: 40px 40px 20px 30px;
+    margin: 10px 40px 40px 40px;
+    line-height: 25px;
+    font-size:small;
+    border-radius: 20px;
+}   
+.bottom-center{
+    background-color:#053742;
+    flex: 0.60;
+    padding: 40px 40px 20px 30px;
+    margin: 10px 30px 40px 30px;
+    line-height: 25px;
+    font-size: small;
+    border-radius: 20px;
+}   
+.bottom-right{
+    background-color:#053742;
+    flex: 0.60;
+    padding: 40px 30px 20px 30px;
+    margin: 10px 40px 40px 40px;
+    line-height: 25px;
+    font-size: small;
+    border-radius: 20px;
+}
+#img1{
+    border-radius: 30px;
+}
+#img2{
+    border-radius: 30px;
+}
+#img3{
+    border-radius: 30px;
+}
+footer{
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #053742;
+    color:#D1E8E2;
+    margin: 0px;
+}
+.container{
+    display: flex;
+    padding: 3rem;
+}
+.container .section{
+    flex-basis: 50%;
+    padding: 0 20px;
+}
+.section h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.section .content{
+    margin:20px 0 0 0;
+    position: relative;
+}
+.section .content::before{
+    position: absolute;
+    content: '';
+    top: -10px;
+    height: 2px;
+    width: 100%;
+}
+.section .content::after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 15%;
+    background-color: #FFCB9A;
+    top: -10px;
+}
+.left .content .social{
+    margin: 20px 0 0 0;
+}
+.left .content .social a{
+    padding: 0 2px;
+}
+.left .content .social a span{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 50px;
+    transition: 0.4s;
+    border:1px solid #656565;
+}
+.left .content .social a span:hover{
+    background:#FFCB9A;
+    color: #116466;
+}
+.left .content .social a span{
+color:#D1E8E2;
+}
+.center .content .fas{
+    font-size: 1.1rem;
+    background: transparent;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50px;
+    transition: 0.3s;
+    cursor: pointer;
+    border:1px solid #656565;
+}
+.center .content .fas:hover{
+    background: #FFCB9A;
+    border:1px solid #FFCB9A;
+    color: #116466;
+}
+.center .content .fas{
+    color:#D1E8E2;
+}
+.center .content .text{
+    font-size: 1.0.6rem;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.center .content .phone{
+    margin: 15px 0;
+}
+.right form .text{
+    font-size: 1.0625rem;
+    margin-bottom: 2px;
+    color: #656565;
+}
+.right form input{
+    width: 98%;
+    font-size: 1.0625rem;
+    background: transparent;
+    border: 1px solid #656565;
+}
+.right form input{
+    height: 35px;
+    color:#D1E8E2;
+}
+.right form .btn{
+    margin-top: 10px;
+}
+.right form .btn button{
+    height: 40px;
+    width: 100%;
+    border:none;
+    outline: none;
+    background: #FFCB9A;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+    color:#116466;
+}
+.right form .btn button:hover{
+    background: #D1E8E2;
+}
+.footer-bottom center{
+    padding: 5px;
+    font-size: 0.9375rem;
+    background:#D1E8E2;
+    color: #053742;
+}
+.footer-bottom center span{
+    color: #053742;
+}
+/*@media (min-width:992px){
+    body{
+        width: 990px;
+    }
+
+}  */
+@media (min-width:1200px){
+    body{
+        width: 1263px;
+    }
+}    

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration form for Men</title>
+    <link rel="stylesheet" href="css/form_men.css">
+    <!--icon-->
+    <link rel="icon" href="image/favicon (1).ico">
+</head>
+
+<body style="background-image: url('image/men.jpg');">
+    <div class="men-form">
+        <div class="men">Men Registration</div>
+        <form action="conn.php" method="post">
+            <div class="card-detalis">
+                <div class="card-box">
+                    <span class="details">full name</span>
+                    <input type="text" placeholder="Enter your full name" required="Enter your name ,please" name="fullname">
+                </div>
+            </div>
+            <div class="card-detalis">
+                <div class="card-box">
+                    <span class="details">Age</span>
+                    <input type="number" placeholder="Enter your Age name" required="Enter your age ,please"  name="age">
+                </div>
+            </div>
+            <div class="card-detalis">
+                <div class="card-box">
+                    <span class="details">phone-number</span>
+                    <input type="text" placeholder="Enter your phone-number" required=" Enter your phone-number ,please" name="number">
+                </div>
+            </div>
+            <div class="card-detalis">
+                <div class="card-box">
+                    <span class="details">Address</span>
+                    <input type="text" placeholder="Enter your Address" required=" Enter your Address ,please" name="address">
+                </div>
+            </div>
+            <div class="card-detalis">
+                <div class="card-box">
+                    <span class="details">Branch-Near to You</span>
+                    <select class="select" name="branch">
+                        <option value="Sheraton">Sheraton Branch-men</option>
+                        <option value="Golf">Golf Branch-men</option>
+                        <option value="Nasr-City">Nasr-City Branch-men</option>
+                        <option value="New-Cairo">New-Cairo Branch-men</option>
+                        <option value="Porto-New-Cairo"> Porto-New-Cairo Branch-men</option>
+                    </select>
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Register">
+            </div>
+    </div>
+
+    </form>
+    </div>
+
+
+</body>
+
+</html>
