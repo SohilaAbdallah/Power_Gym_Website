@@ -1,0 +1,134 @@
+/********************************************HEBA**********************************************/
+/*#################################################SCHEDULE#################################################*/
+.sec3{
+  background-color: #116466;
+}
+
+h5 {
+  text-align: center;
+  color: #D9B08C;
+  line-height: 25px;
+  font-size: 12px;
+}
+
+.branch {
+  text-align: center;
+  color: #D9B08C;
+  padding-top: 30px;
+
+}
+
+.modify {
+  text-align: center;
+  color: #D9B08C;
+}
+
+
+.box .click{
+  width: 60%;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-around;
+   margin-left: 250px; 
+}
+
+.square1 ,.square2,.square3,.square4,.square5 {
+  /* background-color: #D1E8E2; */
+  background-color: #166b6d;
+  height: 150px;
+  width: 150px;
+  margin: 20px;
+
+}
+.square1:hover,.square2:hover,.square3:hover,.square4:hover,.square5:hover {
+  background-color: #1e7d7f; 
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+
+
+.box2 .click2{
+  margin-top: 60px;
+  width: 60%;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-around;
+  margin-left: 250px;
+  padding-bottom: 20px;
+ 
+}
+.square6 ,.square7,.square8,.square9,.square10 {
+  /* background-color: #D1E8E2; */
+  background-color: #166b6d;
+  height: 150px;
+  width: 150px;
+  margin: 20px;
+
+}
+.square6:hover,.square7:hover,.square8:hover,.square9:hover,.square10:hover {
+  background-color: #1e7d7f; 
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.box2 .scadule6,.box2 .scadule7,.box2 .scadule8,.box2 .scadule9,.box2 .scadule10{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.9);
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  display: none;
+}
+.box2 .scadule6 span,.box2 .scadule7 span,.box2 .scadule8 span,.box2 .scadule9 span,.box2 .scadule10 span{
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 60px;
+  font-weight: bolder;
+  color: #1e7d7f;
+  cursor: pointer;
+  z-index:100;
+}
+.box2 .scadule6 img,.box2 .scadule7 img,.box2 .scadule8 img,.box2 .scadule9 img,.box2 .scadule10 img {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border-radius: 5px;
+  width: 700px;
+  object-fit: cover;
+
+}
+
+.box .scadule1,.box .scadule2,.box .scadule3,.box .scadule4,.box .scadule5{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.9);
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  display: none;
+}
+.box .scadule1 span,.box .scadule2 span,.box .scadule3 span,.box .scadule4 span,.box .scadule5 span{
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 60px;
+  font-weight: bolder;
+  color: #1e7d7f;
+  cursor: pointer;
+  z-index:100;
+}
+.box .scadule1 img,.box .scadule2 img,.box .scadule3 img,.box .scadule4 img,.box .scadule5 img {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border-radius: 5px;
+  width: 700px;
+  object-fit: cover;
+}

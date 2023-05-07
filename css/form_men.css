@@ -1,0 +1,92 @@
+/********************************************AYA**********************************************/
+/*#################################################FORM-MEN#################################################*/
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  height: 100vh;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.men-form{
+  margin-top: 50px;
+  max-width: 450px;
+  width: 100%;
+  padding: 25px 30px;
+  border-radius: 25px;
+  background:linear-gradient(135deg, #FFCB9A,#053742);
+  opacity: 0.9;
+}
+.men-form .men{
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+  text-align: center;
+  padding: 0 0 20px 0;
+  color: #053742;
+}
+.men-form .men::before{
+  content: '';
+  position: absolute;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background:linear-gradient(135deg, #484644,#053742);
+
+}
+.men-form form .card-detalis{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+
+}
+form .card-detalis .card-box{
+  width: calc(100%/2-20px);
+  margin-bottom: 15px;
+}
+form .card-detalis .card-box .details{
+  display: block;
+  font-weight:500 ;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #053742;
+}
+form .card-detalis .card-box select,
+form .card-detalis .card-box input{
+  height: 45px;
+  width: 400px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width:2px ;
+  transition: all 0,3s ease;
+}
+form .button{
+  text-align: center;
+}
+form .button input{
+  padding: 20px 30px;
+  margin-top: 10px;
+  height: 100%;
+  outline: none;
+  color: #FFCB9A;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius:5px ;
+  letter-spacing: 1px;
+  background:linear-gradient(135deg, #FFCB9A,#053742);
+
+}
